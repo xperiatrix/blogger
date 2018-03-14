@@ -16,12 +16,9 @@
 <p align="center"> <img src="./AAA-resource/MacMini-power.png"> </p>
 
 + Step 1: Searching from Google for gathering basic information for hackintosh.  
-	<p align="center">
-	<b>Thanks and Thanks to these communities</b>.
-	- [tonymacx86.com](http://www.tonymacx86.com)
-	- [<b>hackintosher.com</b>](http://hackintosher.com) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Strongly Recommend</b>
-	- [amd-osx.com](http://amd-osx.com). &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Supporting AMD Ryzen CPU
-	</p>  
+    - [tonymacx86.com](http://www.tonymacx86.com)
+	- [<b>hackintosher.com</b>](http://hackintosher.com) &nbsp;&nbsp;&nbsp;&nbsp;<b>Strongly Recommend</b>
+	- [amd-osx.com](http://amd-osx.com). &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Supporting AMD Ryzen CPU  
 + Step 2: Just hack it.  
 
 	&nbsp;&nbsp;&nbsp;&nbsp; I followed with [<B>this post</B>](http://hackintosher.com/guides/high-sierra-install-full-guide/) to start my own hackintosh and hacked successfully only once. But there is a big problem with nVidia WebDriver on macOS 10.13. The screen is somehow laggy and frozen sometimes.  
