@@ -5,7 +5,6 @@
 + Life  
     - Notes of [< Poor Charlie's Almanack:The Wit and Wisdom of Charles T. Munger >](./Readings/穷查理宝典-查理芒格智慧箴言录.md)  
     - Notes of [< Keep the Friendship with Time >](./Readings/把时间当做朋友.md)  
-    - Notes of [< Life Continues >](./Readings/Life-Continues.md) 
 
 	
 + IT & Tricks  
@@ -19,7 +18,7 @@
 
 
 + Developer
-    - Programming of [< Native Bash, Zsh, Git config-file without any plugins >](https://github.com/iamtheyoung/bash-zsh-git-config)  
+    - Programming of [< Native Bash, Zsh, Git config-file without any plugins >](https://github.com/toureek/linux-utils)  
     - Programming of [< Replace Zsh with native Bash in Tmux (Terminal) >](./Readings/Replace-Zsh-With-Bash-In-Tmux.md)
 
 
