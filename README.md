@@ -33,7 +33,7 @@
     * [OmniMarkupPreviewer](https://github.com/timonwong/OmniMarkupPreviewer). &nbsp; Plugin for subline text which can edit and preview the markdown file in Web Browser.
     * JSONView or JSON-handle plugins on Firefox and Chrome for formating JSON response in web browser.
     * [Teamviewer](https://www.teamviewer.com/en/). &nbsp; It <b>only</b> works in <b>Xorg Mode</b> on [Fedora](https://community.teamviewer.com/t5/Linux/TeamViewer-12-not-connect-in-Fedora-25/td-p/2817).</b>&nbsp; Crossing platforms tool among Mac, Windows, Linux and mobiles. Remote control, meeting, file transfering, etc.  
-    * [VirtualBox](https://www.virtualbox.org/). &nbsp; I used to use [WeChat for Web](http://web.wechat.com) on Linux, but I begin to use a windows virtual machine instead of it. There is an [issue](https://forums.virtualbox.org/viewtopic.php?f=7&t=78826) during installing VirtualBox version5.1 on Fedora 24/25.   
+    * [VirtualBox](https://www.virtualbox.org/). &nbsp; I used to use [WeChat for Web](http://web.wechat.com) on Linux, but I begin to use a windows virtual machine instead of it. There is an [issue](https://forums.virtualbox.org/viewtopic.php?f=7&t=78826) during installing VirtualBox on Linux platform.   
 
 
 + Mac  
