@@ -81,3 +81,18 @@
 
 	- <b>Compares In The End</b>: Comparing the real Macintosh to Hackintosh on <B>Performance</B> especially in Multi-Core Performance on [Benchmarks](https://browser.geekbench.com/mac-benchmarks).
 
+
+-
+
+&nbsp;&nbsp;&nbsp;&nbsp; After I built the second PC for my girlfriend yesterday, she loved it very much for watching TV-shows and movies. Today I switch to Windows and I wonder how the reality performance between Intel G4560 and other MonsterBeasts. Just take a look at these pictures below.  PS: All data comes from the windows software [cpu-z](https://www.cpuid.com/softwares/cpu-z.html).
+
+
+* Intel Core-i7 6700k, Core i7 7700k
+	<p align="center"> <img src="./AAA-resource/g4560-6700k.png"> </p>
+	<p align="center"> <img src="./AAA-resource/g4560-7700k.png"> </p>
+
+* AMD Ryzen 7 1700  
+ 	<p align="center"> <img src="./AAA-resource/g4560-1700.png"> </p>
+
+* AMD ThreadRipper 1950X 
+ 	<p align="center"> <img src="./AAA-resource/g4560-1950x.png"> </p> 
