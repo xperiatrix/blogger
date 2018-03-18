@@ -5,7 +5,7 @@
 + Life  
     - Notes of [< Poor Charlie's Almanack:The Wit and Wisdom of Charles T. Munger >](./Readings/穷查理宝典-查理芒格箴言录.md)  
     - Notes of [< Keep the Friendship with Time >](./Readings/把时间当做朋友.md)   
-
+    - Notes of [< Keep Notes in GrowingUp >](./Readings/KeepNoteInGrowingUp.md)   
 	
 + IT & Tricks  
     - Tricks of [< Hackintosh on Intel Pentium G4560 >](./Readings/Hackintosh-On-PC-In-Early-2018.md)  
