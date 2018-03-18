@@ -25,6 +25,9 @@
 + DIY & Console
     - DIY of [< New Budget Promising PC in Early 2018 >](./Readings/New_Budget_Promising_PC_in_Early_2018.md)  
 
++ Repost  
+    - Repost of [< The Economic Organization of a P.O.W. Camp>](http://icm.clsbe.lisboa.ucp.pt/docentes/url/jcn/ie2/0POWCamp.pdf) // R.A.Radford From Economica Nov. 1945   
+
 ## Utils  
 &nbsp;&nbsp;&nbsp;&nbsp; I built my first Hackintosh yesterday and I did clean reinstall Fedora27 XFCE4 on the laptop tonight, and I also upgraded to the latest operating system on mac. I built up the basic developing environment that required on both side platforms. I guess there will be a little help in writing down the tips on Fedora/Mac for anyone who visits this webpage.
 
