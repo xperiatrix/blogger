@@ -7,3 +7,5 @@
 + GetItLabs  
     - Reading Notes of [李笑来](./Readings/Lab-LiXiaoLai.md)  
     - Reading Notes of [薛兆丰](./Readings/Lab-XueZhaoFeng.md)   
+    - Reading Notes of [吴军](./Readings/Lab-Wujun-Letters.md)   
+    - Reading Notes of [吴军](./Readings/Lab-Wujun-Google.md)   
