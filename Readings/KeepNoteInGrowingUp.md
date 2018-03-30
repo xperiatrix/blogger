@@ -5,7 +5,10 @@
 ## Labs
 
 + GetItLabs  
-    - Reading Notes of [李笑来](./Readings/Lab-LiXiaoLai.md)  
-    - Reading Notes of [薛兆丰](./Readings/Lab-XueZhaoFeng.md)   
-    - Reading Notes of [吴军](./Readings/Lab-Wujun-Letters.md)   
-    - Reading Notes of [吴军](./Readings/Lab-Wujun-Google.md)   
+    - Reading Notes of [李笑来 财富自由](./Readings/Lab-LiXiaoLai.md)  
+    - Reading Notes of [薛兆丰 经济学](./Readings/Lab-XueZhaoFeng.md)   
+    - Reading Notes of [吴军 来信](./Readings/Lab-Wujun-Letters.md)   
+    - Reading Notes of [吴军 Google](./Readings/Lab-Wujun-Google.md)   
+
++ English on the Air 
+    - Notes of English [Sentences on TV](./Readings/English-Sentences.md)  
