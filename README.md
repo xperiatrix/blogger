@@ -1,16 +1,22 @@
-# Refresh && Blogger Myself
+# Refresh && Blogger It.
 
 ## Discovering
 
 + Life  
     - Notes of [< Poor Charlie's Almanack:The Wit and Wisdom of Charles T. Munger >](./Readings/穷查理宝典-查理芒格箴言录.md)  
     - Notes of [< Keep the Friendship with Time >](./Readings/把时间当做朋友.md)   
-    - Notes of [< Keep Notes in GrowingUp >](./Readings/KeepNoteInGrowingUp.md)   
     - Notes of [< Book List >](./Readings/BookList.md)   
 	
+
 + IT & Tricks  
     - Tricks of [< Hackintosh on Intel Pentium G4560 >](./Readings/Hackintosh-On-PC-In-Early-2018.md)  
     - Tricks of [< Basic handler in Headless Mode in VirtualBox >](./Readings/VirtualBox-In-Headless-Mode.md)   
+
+
++ GetItLab  
+    - Reading Notes of [Li XiaoLai](./Readings/Lab-LiXiaoLai.md)  
+    - Reading Notes of [Wu Jun](./Readings/Lab-Wujun-Google.md)  
+    - Reading Notes of [Xue ZhaoFeng](./Readings/Lab-XueZhaoFeng.md)  
 
 
 + Linux  
@@ -21,10 +27,16 @@
 
 + Developer
     - Programming of [< Native Bash, Zsh, Git config-file without any plugins >](https://github.com/toureek/linux-utils)  
-    - Programming of [< Replace Zsh with native Bash in Tmux (Terminal) >](./Readings/Replace-Zsh-With-Bash-In-Tmux.md)
+    - Programming of [< Replace Zsh with native Bash in Tmux (Terminal) >](./Readings/Replace-Zsh-With-Bash-In-Tmux.md)  
+
 
 + DIY & Console
-    - DIY of [< New Budget Promising PC in Early 2018 >](./Readings/New_Budget_Promising_PC_in_Early_2018.md)  
+    - DIY of [< New Budget Promising PC in Early 2018 >](./Readings/New_Budget_Promising_PC_in_Early_2018.md)
+
+
++ English on the Air 
+    - Notes of English [Sentences on TV](./Readings/English-Sentences.md)  
+
 
 
 ## Utils  
