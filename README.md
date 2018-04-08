@@ -12,7 +12,6 @@
     - Tricks of [< Hackintosh on Intel Pentium G4560 >](./Readings/Hackintosh-On-PC-In-Early-2018.md)  
     - Tricks of [< Basic handler in Headless Mode in VirtualBox >](./Readings/VirtualBox-In-Headless-Mode.md)   
 
-
 + GetItLab  
     - Reading Notes of [Li XiaoLai](./Readings/Lab-LiXiaoLai.md)  
     - Reading Notes of [Wu Jun](./Readings/Lab-Wujun-Google.md)  

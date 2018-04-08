@@ -17,3 +17,6 @@
 + Exploded  // 爆炸 adj.  & v.
 
 
+<p align="center"> <img src="./AAA-resource/xuezhaofeng/words-01.jpg"> </p>
+<p align="center"> <img src="./AAA-resource/xuezhaofeng/words-02.jpg"> </p>
+
