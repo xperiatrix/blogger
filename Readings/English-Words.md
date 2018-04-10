@@ -23,3 +23,4 @@
 <p align="center"> <img src="./AAA-resource/English/GA-S1/words-04.png"> </p>
 <p align="center"> <img src="./AAA-resource/English/GA-S1/words-05.png"> </p>
 <p align="center"> <img src="./AAA-resource/English/GA-S1/words-06.png"> </p>
+<p align="center"> <img src="./AAA-resource/English/GA-S1/words-07.png"> </p>
