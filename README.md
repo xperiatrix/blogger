@@ -10,7 +10,9 @@
 
 + IT & Tricks  
     - Tricks of [< Hackintosh on Intel Pentium G4560 >](./Readings/Hackintosh-On-PC-In-Early-2018.md)  
-    - Tricks of [< Basic handler in Headless Mode in VirtualBox >](./Readings/VirtualBox-In-Headless-Mode.md)   
+    - Tricks of [< Basic handler in Headless Mode in VirtualBox >](./Readings/VirtualBox-In-Headless-Mode.md)
+    - Tricks of [< Setup the Shadowsocks on Amazon Web Service >](./Readings/Setup-Shadowsocks-On-Amazon-Web-Service.md)
+
 
 + GetItLab  
     - Reading Notes of [Li XiaoLai](./Readings/Lab-LiXiaoLai.md)  
@@ -21,7 +23,8 @@
 + Linux  
     - Work-It-Out of [< ThinkPad T400 FanControl on Linux Fedora27 >](./Readings/ThinkPad-T400-Fedora27-FanControllerSolution.md)  
     - Work-It-Out of [< Create MacOS X SnowLeopard virtual machine in VirtualBox on Linux >](./Readings/Create_MacOSX_VMinstance_In_VirtualBox_On_Linux.md)  
-    - Work-It-Out of [< Install VirtualBox on Linux in a right way >](./Readings/Install-VirtualBox-In-A-Right-Way.md)  
+    - Work-It-Out of [< Running Linux Command In Background >](./Readings/Running-Linux-Command-In-Background.md)  
+
 
 
 + Developer
