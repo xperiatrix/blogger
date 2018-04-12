@@ -44,8 +44,17 @@
 <p align="center"> <img src="./AAA-resource/AWS/AWS-12.jpg"> </p>
 
 + <b>Setting up Shadowsocks-Server on EC2-Host</b>
+	- <b>Install Shadowsocks on Ubuntu-Server.</b>
+		<p align="center"> <img src="./AAA-resource/AWS/ss-install.jpg"> </p>	
+	- <b>Create Shadowsocks Config File, especially in server_port be same with the port config on AWS</b>
+		<p align="center"> <img src="./AAA-resource/AWS/shadowsocks.json.jpg"> </p>	
+	- <b>Disable FireWall and Start Shadowsocks Service	</b>
+		<p align="center"> <img src="./AAA-resource/AWS/ufw-disabled.jpg"> </p>	
+		<p align="center"> <img src="./AAA-resource/AWS/startsss.jpg"> </p>	
 
-+ <b>Setup Shadowsocks on SS-Client (Web-Browser / Native-Client / iOS)</b>
++ <b>Check the AWS-EC2</b>
+	<p align="center"> <img src="./AAA-resource/AWS/AWS-EC2.jpg"> </p>	
+	
 
 
 
