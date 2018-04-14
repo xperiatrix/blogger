@@ -12,6 +12,7 @@
     - Tricks of [< Hackintosh on Intel Pentium G4560 >](./Readings/Hackintosh-On-PC-In-Early-2018.md)  
     - Tricks of [< Basic handler in Headless Mode in VirtualBox >](./Readings/VirtualBox-In-Headless-Mode.md)
     - Tricks of [< Setup the Shadowsocks on Amazon Web Service >](./Readings/Setup-Shadowsocks-On-Amazon-Web-Service.md)
+    - Tricks of [< Connect to Shadowsocks on Client >](./Readings/Connect_To_SSService_On_Client.md)
 
 
 + GetItLab  
