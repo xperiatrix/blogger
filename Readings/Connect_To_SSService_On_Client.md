@@ -7,14 +7,15 @@
 + Windows  
     - Shadowsocks GUI (Windows Platform .NET Framework required)
 
-+ Mac OS X 
-    - Shadowsocks
++ Mac OS X  
+    - Shadowsocks  
     <p align="center"> <img src="./AAA-resource/AWS/SS-Mac.jpg"> </p>
 + iOS  
-    - OpenWingy 
+    - OpenWingy  
     <p align="center"> <img src="./AAA-resource/AWS/OpenWingy.jpg"> </p>
 + Web Browser
-    - Google Chrome
+    - Google Chrome  
     <p align="center"> <img src="./AAA-resource/AWS/CTX.jpg"> </p>
     <p align="center"> <img src="./AAA-resource/AWS/ChromeExtension.jpg"> </p>
-    - Firefox
+    - Firefox  
+	<p align="center"> <img src="./AAA-resource/AWS/Firefox-SS.jpg"> </p>
