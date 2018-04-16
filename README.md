@@ -1,4 +1,4 @@
-# Refresh && Blogger It.
+# Refresh && Blogger It. 
 
 ## Discovering
 
@@ -34,6 +34,7 @@
     - Programming of [< Replace Zsh with native Bash in Tmux (Terminal) >](./Readings/Replace-Zsh-With-Bash-In-Tmux.md)  
     - Programming of [< A QuickSort in Java >](./Readings/QuickSort.md)  
     - Programming of [< A MergeSort in Java >](./Readings/MergeSort.md)  
+    - Programming of [< A HeapSort in Java >](./Readings/HeapSort.md) <B>To be continue...</B> 
 
 + DIY & Console
     - DIY of [< New Budget Promising PC in Early 2018 >](./Readings/New_Budget_Promising_PC_in_Early_2018.md)
