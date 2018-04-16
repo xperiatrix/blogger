@@ -69,5 +69,86 @@ public class QuickSort {
     }
 }
 
-```
+```  
 
++ 快速排序中 关于枢值的优化   
+&nbsp;&nbsp;&nbsp;&nbsp; 枢值选取的优化方法：
+    * 固定值选择  
+    当带排序数组内部有序或者局部有序时，这种情况最糟糕，算法复杂度会成为 O(n²)，显然，这并不是一中有效策略。
+
+    * 随机值选择  
+    随机选取当前待排序序列的任意记录作为枢轴。由于采取随机，所以时间性能要强于固定位置选取。  
+
+    * 三值取中法  
+    首元素、尾元素、中间位置元素，排序，取三个值中的<b>中位数</b>！
+
+
+```java
+package com.springboot.guide.springboot.guide;
+
+
+public class QuickSort {
+
+    private int pivotCompared(int array[]) {
+        int high = array.length-1;
+        int[] pivotArray = {array[0], array[(int)(high/2)], array[high]};
+        Arrays.sort(pivotArray);
+        return pivotArray[1];
+    }
+
+
+    private int partition(int array[], int low, int high) {
+        int pivot = pivotCompared(array);
+        int startIndex = low-1;
+
+        for (int sortIndex = low; sortIndex < high; sortIndex++) {
+            if (array[sortIndex] <= pivot) {
+                startIndex++;
+
+                int temp = array[startIndex];
+                array[startIndex] = array[sortIndex];
+                array[sortIndex] = temp;
+            }
+        }
+
+        int temp = array[startIndex+1];
+        array[startIndex+1] = array[high];
+        array[high] = temp;
+
+        return startIndex+1;
+    }
+
+    public void recursionSort(int array[], int low, int high) {
+        if (low > high || low == high) {
+            return;
+        }
+
+        int pivotIndex = partition(array, low, high);
+
+        recursionSort(array, low, pivotIndex-1);
+        recursionSort(array, pivotIndex+1, high);
+    }
+
+    public static void printArray(int arr[]) {
+        int n = arr.length;
+        for (int i=0; i<n; ++i) {
+            System.out.print(arr[i]+" ");
+        }
+        System.out.println();
+    }
+
+    public static void main(String args[]) {
+        int arr[] = {1011, 9877, 118, 94, 11, 5, 0, 98};
+        System.out.println("array before sorted");
+        printArray(arr);
+
+        int n = arr.length;
+        QuickSort qs = new QuickSort();
+        qs.recursionSort(arr, 0, n-1);
+
+        System.out.println("array sorted");
+        printArray(arr);
+    }
+}
+
+```  
