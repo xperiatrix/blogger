@@ -32,7 +32,7 @@
 + Developer
     - Programming of [< Native Bash, Zsh, Git config-file without any plugins >](https://github.com/toureek/linux-utils)  
     - Programming of [< Replace Zsh with native Bash in Tmux (Terminal) >](./Readings/Replace-Zsh-With-Bash-In-Tmux.md)  
-
+    - Programming of [< A QuickSort in Java >](./Readings/QuickSort.md)  
 
 + DIY & Console
     - DIY of [< New Budget Promising PC in Early 2018 >](./Readings/New_Budget_Promising_PC_in_Early_2018.md)
