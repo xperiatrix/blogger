@@ -37,8 +37,6 @@ marks:  70     70    75    80
 + 归并排序的实现细节(Java)  
 
 ```java
-package com.springboot.guide.springboot.guide;
-
 public class MergeSort {
 
     public void recursionMerge(int array[], int low, int high) {

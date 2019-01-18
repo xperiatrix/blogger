@@ -2,35 +2,30 @@ package com.springboot.guide.springboot.guide;
 
 public class QuickSort {
     private int partition(int array[], int low, int high) {
-        int pivot = array[high];
-        int startIndex = low-1;
+	int i = low;
+	int povit = array[high];
+	for (int j = low; j < high; j++) {
+	    if (array[j] < povit) {
+		int temp = array[i];
+		array[i] = array[j];
+		array[j] = temp;
+		i++;
+	    }
+	}
 
-        for (int sortIndex = low; sortIndex < high; sortIndex++) {
-            if (array[sortIndex] <= pivot) {
-                startIndex++;
-
-                int temp = array[startIndex];
-                array[startIndex] = array[sortIndex];
-                array[sortIndex] = temp;
-            }
-        }
-
-        int temp = array[startIndex+1];
-        array[startIndex+1] = array[high];
-        array[high] = temp;
-
-        return startIndex+1;
+	int tempValue = array[i];
+	array[i] = array[high];
+	array[high] = tempValue;
+        System.out.println(i + "");
+	return i;
     }
 
     public void recursionSort(int array[], int low, int high) {
-        if (low > high || low == high) {
-            return;
-        }
+        if (low >= high)    return;
 
-        int pivotIndex = partition(array, low, high);
-
-        recursionSort(array, low, pivotIndex-1);
-        recursionSort(array, pivotIndex+1, high);
+        int keyPoint = partition(array, low, high);
+        recursionSort(array, low, keyPoint-1);
+        recursionSort(array, keyPoint+1, high);
     }
 
     public static void printArray(int arr[]) {

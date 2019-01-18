@@ -11,47 +11,38 @@
 
 + 快速排序的实现细节(Java)  
 ```java
-package com.springboot.guide.springboot.guide;
-
-
 public class QuickSort {
     private int partition(int array[], int low, int high) {
-        int pivot = array[high];
-        int startIndex = low-1;
-
-        for (int sortIndex = low; sortIndex < high; sortIndex++) {
-            if (array[sortIndex] <= pivot) {
-                startIndex++;
-
-                int temp = array[startIndex];
-                array[startIndex] = array[sortIndex];
-                array[sortIndex] = temp;
-            }
+    int i = low;
+    int povit = array[high];
+    for (int j = low; j < high; j++) {
+        if (array[j] < povit) {
+        int temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+        i++;
         }
+    }
 
-        int temp = array[startIndex+1];
-        array[startIndex+1] = array[high];
-        array[high] = temp;
-
-        return startIndex+1;
+    int tempValue = array[i];
+    array[i] = array[high];
+    array[high] = tempValue;
+    System.out.println(i + "");
+        return i;
     }
 
     public void recursionSort(int array[], int low, int high) {
-        if (low > high || low == high) {
-            return;
-        }
+        if (low >= high)    return;
 
-        int pivotIndex = partition(array, low, high);
-
-        recursionSort(array, low, pivotIndex-1);
-        recursionSort(array, pivotIndex+1, high);
+        int keyPoint = partition(array, low, high);
+        recursionSort(array, low, keyPoint-1);
+        recursionSort(array, keyPoint+1, high);
     }
 
     public static void printArray(int arr[]) {
         int n = arr.length;
-        for (int i=0; i<n; ++i) {
-            System.out.print(arr[i]+" ");
-        }
+        for (int i=0; i<n; ++i)
+        System.out.print(arr[i]+" ");
         System.out.println();
     }
 
@@ -68,7 +59,6 @@ public class QuickSort {
         printArray(arr);
     }
 }
-
 ```  
 
 + 快速排序中 关于枢值的优化   
@@ -84,71 +74,10 @@ public class QuickSort {
 
 
 ```java
-package com.springboot.guide.springboot.guide;
-
-
-public class QuickSort {
-
     private int pivotCompared(int array[]) {
         int high = array.length-1;
         int[] pivotArray = {array[0], array[(int)(high/2)], array[high]};
         Arrays.sort(pivotArray);
         return pivotArray[1];
     }
-
-
-    private int partition(int array[], int low, int high) {
-        int pivot = pivotCompared(array);
-        int startIndex = low-1;
-
-        for (int sortIndex = low; sortIndex < high; sortIndex++) {
-            if (array[sortIndex] <= pivot) {
-                startIndex++;
-
-                int temp = array[startIndex];
-                array[startIndex] = array[sortIndex];
-                array[sortIndex] = temp;
-            }
-        }
-
-        int temp = array[startIndex+1];
-        array[startIndex+1] = array[high];
-        array[high] = temp;
-
-        return startIndex+1;
-    }
-
-    public void recursionSort(int array[], int low, int high) {
-        if (low > high || low == high) {
-            return;
-        }
-
-        int pivotIndex = partition(array, low, high);
-
-        recursionSort(array, low, pivotIndex-1);
-        recursionSort(array, pivotIndex+1, high);
-    }
-
-    public static void printArray(int arr[]) {
-        int n = arr.length;
-        for (int i=0; i<n; ++i) {
-            System.out.print(arr[i]+" ");
-        }
-        System.out.println();
-    }
-
-    public static void main(String args[]) {
-        int arr[] = {1011, 9877, 118, 94, 11, 5, 0, 98};
-        System.out.println("array before sorted");
-        printArray(arr);
-
-        int n = arr.length;
-        QuickSort qs = new QuickSort();
-        qs.recursionSort(arr, 0, n-1);
-
-        System.out.println("array sorted");
-        printArray(arr);
-    }
-}
-
 ```  

@@ -1,5 +1,3 @@
-package com.springboot.guide.springboot.guide;
-
 public class MergeSort {
 
     public void recursionMerge(int array[], int low, int high) {
