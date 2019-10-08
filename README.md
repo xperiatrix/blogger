@@ -6,7 +6,7 @@
     - Notes of [< Poor Charlie's Almanack:The Wit and Wisdom of Charles T. Munger >](./Readings/穷查理宝典-查理芒格箴言录.md)  
     - Notes of [< Keep the Friendship with Time >](./Readings/把时间当做朋友.md)   
     - Notes of [< Book List >](./Readings/BookList.md)   
-	
+
 
 + IT & Tricks  
     - Tricks of [< Hackintosh on Intel Pentium G4560 >](./Readings/Hackintosh-On-PC-In-Early-2018.md)  
@@ -26,7 +26,7 @@
     - Work-It-Out of [< ThinkPad T400 FanControl on Linux Fedora27 >](./Readings/ThinkPad-T400-Fedora27-FanControllerSolution.md)  
     - Work-It-Out of [< Create MacOS X SnowLeopard virtual machine in VirtualBox on Linux >](./Readings/Create_MacOSX_VMinstance_In_VirtualBox_On_Linux.md)  
     - Work-It-Out of [< Running Linux Command In Background >](./Readings/Running-Linux-Command-In-Background.md)  
-
+    - Work-It-Out of [< Upgrade Fedora 29 to Fedora 30 >](./Readings/Upgrade-Fedora29-to-Fedora30.md)  
 
 
 + Developer
