@@ -1,4 +1,4 @@
-# Refresh && Blogger It. 
+# Blog it continue
 
 ## Discovering
 
@@ -51,21 +51,22 @@
 
 
 ## Utils  
-&nbsp;&nbsp;&nbsp;&nbsp; I built my first Hackintosh yesterday and I did clean reinstall Fedora27 XFCE4 on the laptop tonight, and I also upgraded to the latest operating system on mac. I built up the basic developing environment that required on both side platforms. I guess there will be a little help in writing down the tips on Fedora/Mac for anyone who visits this webpage.
+&nbsp;&nbsp;&nbsp;&nbsp; I built my first Hackintosh in 2017 and I reinstalled Fedora27 Xfce4 on the laptop at the same time. As time goes by, here comes to 2022 H2, my hackintosh goes well as it always does except that, the operating system is still on High Serria(10.13.1), because the nVidia GUI-Driver of GTX 10XX GraphicCard which cannot be upgraded from the latest macOS. Other the other side, I keep fedora on F34 as my daily work as a keyborad-notepad. Both are working great in the past 5 years.
+I guess there will be a little help in writing down the tips on Fedora/Mac for anyone who visits this webpage.
 
 
 + Fedora  
-    * [Shadowsocks-qt5](https://github.com/shadowsocks/shadowsocks-qt5). &nbsp; A proxy util for surfing Internet freely that can work well with [Amazon Web Service](https://aws.amazon.com/).
-    * [Sublime Text 3](https://www.sublimetext.com/3) and its [Package Control](https://packagecontrol.io/installation). &nbsp; Plugin for subline text.
+    * [Shadowsocks-qt5](https://github.com/shadowsocks/shadowsocks-qt5). &nbsp; A proxy util for surfing Internet freely that can work well with [Amazon Web Service](https://aws.amazon.com/).  PS. I don't use it any longer, I replaced it with electron-ssr instead.
+    * [Sublime Text 3](https://www.sublimetext.com/3) and its [Package Control](https://packagecontrol.io/installation). &nbsp; Plugin for subline text. PS. I don't use it either, replaced with Microsoft's VSCode.
     * [OmniMarkupPreviewer](https://github.com/timonwong/OmniMarkupPreviewer). &nbsp; Plugin for subline text which can edit and preview the markdown file in Web Browser.
     * JSONView or JSON-handle plugins on Firefox and Chrome for formating JSON response in web browser.
-    * [Teamviewer](https://www.teamviewer.com/en/). &nbsp; It <b>only</b> works in <b>Xorg Mode</b> on [Fedora](https://community.teamviewer.com/t5/Linux/TeamViewer-12-not-connect-in-Fedora-25/td-p/2817).</b>&nbsp; Crossing platforms tool among Mac, Windows, Linux and mobiles. Remote control, meeting, file transfering, etc.  
+    * [Teamviewer](https://www.teamviewer.com/en/). &nbsp; It <b>only</b> works in <b>Xorg Mode</b> on [Fedora](https://community.teamviewer.com/t5/Linux/TeamViewer-12-not-connect-in-Fedora-25/td-p/2817).</b>&nbsp; Crossing platforms tool among Mac, Windows, Linux and mobiles. Remote control, meeting, file transfering, etc.   Never use it ever again. I switch to Chrome Remote Desktop for long.
     * [VirtualBox](https://www.virtualbox.org/). &nbsp; I used to use [WeChat for Web](http://web.wechat.com) on Linux, but I begin to use a windows virtual machine instead of it. There is an [issue](./Readings/Install-VirtualBox-In-A-Right-Way.md) during clean installing VirtualBox and sytem upgrading on Linux platform.   
 
 
 + Mac  
 	* [Mounty for NTFS](http://enjoygineering.com/mounty/). &nbsp; Windows NTFS files can be read and write on Mac.
-	* [Shadowsocks project for all platforms](https://shadowsocks.org/en/download/clients.html).
+	* [Shadowsocks project for all platforms](https://shadowsocks.org/en/download/clients.html).  
 	* [MacDown](https://macdown.uranusjr.com). &nbsp; A pretty easier tiny markdown editor with preview on mac.
 	* [TNEF's Enough for Mac OS](http://www.joshjacob.com/mac-development/tnef.php).  &nbsp; It can open Microsoft TNEF stream files on mac, for instance, .dat file in Surface mail attachments. 
 
